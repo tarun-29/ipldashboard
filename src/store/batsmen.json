@@ -1,0 +1,31 @@
+{
+  "data": {
+    "labels": [
+      "Suresh Raina",
+      "Virat Kohli",
+      "Rohit Sharma",
+      "Gautam Gambhir",
+      "Chris Gayle",
+      "Robin Uthappa",
+      "David Warner",
+      "MS Dhoni",
+      "AB de Villiers",
+      "Shikhar Dhawan"
+    ],
+    "datasets": [
+      {
+        "label": "Total runs (2008-2016)",
+        "backgroundColor": "#29AB87",
+        "borderWidth": 1,
+        "data": [4291,4274,3985,3857,3697,3590,3543,3421,3388,3259]
+      },
+
+      {
+        "label": "Total Matches played in season",
+        "backgroundColor": "#9DC183",
+        "borderWidth": 1,
+        "data":  [185,159,111,223,246,200,170,151,188,177]
+      }
+    ]
+  }
+}

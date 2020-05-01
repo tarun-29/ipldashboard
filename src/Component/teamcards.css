@@ -1,0 +1,70 @@
+/* .card-body {
+    min-height: 100px;
+    min-width: 100px;
+    margin-right: 5px;
+} */
+
+.scroll {
+  /* flex: 1; */
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.scroll {
+  -ms-overflow-style: none;
+}
+
+.flip-cards {
+  /* background-color: transparent; */
+  width: 300px;
+  height: 350px;
+  margin-right: 5px;
+  border-radius: 5px
+  
+}
+
+.flip-cards-inner {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+}
+
+.flip-cards:hover .flip-cards-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-cards-front, .flip-cards-back {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  
+}
+
+.flip-cards-front {
+  /* background-image: url("./team/csk.jpg"); */
+  object-fit: cover;
+  /* background-color:rgba(0,0,0,0.9); */
+  color: white;
+  border-radius: 5px;
+}
+
+.flip-cards-back {
+  background-color: whitesmoke;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}

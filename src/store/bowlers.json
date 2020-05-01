@@ -1,0 +1,31 @@
+{
+  "data": {
+    "labels": [
+      "Harbhajan Singh",
+      "Piyush Chawla",
+      "Praveen Kumar",
+      "Amit Mishra",
+      "Lasith Malinga",
+      "R Ashwin",
+      "Vinay Kumar",
+      "Dale Steyn",
+      "Irfan Pathan",
+      "Dwayne Bravo"
+    ],
+    "datasets": [
+      {
+        "label": "Total overs (2008-2016)",
+        "backgroundColor": "#fc6c85",
+        "borderWidth": 1,
+        "data": [444,410,407,403,387,383,351,344,343,341]
+      },
+
+      {
+        "label": "Economy",
+        "backgroundColor": "#FFB6C1",
+        "borderWidth": 1,
+        "data":  [7.2,7.6,7.8,7.3,6.8,6.7,8.4,6.9,7.8,8.3]
+      }
+    ]
+  }
+}
